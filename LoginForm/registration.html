@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script2.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+</head>
+<body>
+    <div class="container">
+    <form>
+        <h1>Registration</h1>
+        <div class="input-control">
+        <input
+            id="username"
+            name="username"
+            placeholder="username"
+            type="text"
+            required
+        />
+        </div>
+
+        <div class="input-control">
+        <input
+            id="email"
+            name="email"
+            placeholder="Email"
+            type="text"
+            required
+        />
+        </div>
+
+        <div class="input-control">
+        <input
+            id="password"
+            name="password"
+            placeholder="password"
+            type="password"
+            required
+        />
+        </div>
+
+        <div class="input-control">
+        <input
+            id="password2"
+            name="password2"
+            placeholder="Confirm Password"
+            type="password"
+            required
+        />
+        </div>
+        <p id="errorMessage" hidden></p>
+        <input type="submit" value="Sign Up" />
+        <p id="login">
+        Have an account?<a href="login.html" id="lg"><b>Sign In</b></a>
+        </p>
+        <div class="line">
+        <h3 class="or-title">Or</h3>
+        </div>
+
+        <div class="social-media">
+        <a href="https://www.facebook.com/" class="social-icon">
+            <i class="fab fa-facebook"></i>
+        </a>
+
+        <a href="https://twitter.com/" class="social-icon">
+            <i class="fab fa-twitter"></i>
+        </a>
+
+        <a href="https://www.instagram.com/" class="social-icon">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://github.com/" class="social-icon">
+            <i class="fab fa-github"></i>
+        </a>
+        </div>
+    </form>
+    </div>
+    <footer id="ft">
+        <small>&copy; 2024 Kruthin. All rights reserved.</small>
+    </footer>
+</body>
+</html>

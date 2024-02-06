@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignIn</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+<body>
+    <form action="/" method="GET">
+    <h1>Welcome Back.<br>
+        Sign in.
+    </h1>
+    
+        <input id ="username"
+        type="text"
+        placeholder="Username"
+        required
+        />
+        <div class="password-container">
+            <input id ="password"
+            type="password"
+            placeholder="Password"
+            required>
+            <img src="lock.png" id ="togglePassword">
+        </div>  
+        <br>
+        <label class="remember-forgot">
+        <input type="checkbox" id="rememberMe">Remember me
+        <a href="#" class="forgot-password">Forgot Password?</a></label>
+    
+        <p id ="errorMessage" hidden></p>
+
+    <input type="submit" value="Sign In">
+    <p id ="registration">Don't have an account? <a href="registration.html" id="reg"><b>Sign up</b></a></p>
+    <div class="line">
+        <p class="or-title">Or</p>
+    </div>
+
+    <div class="social-media">
+        <a href="https://www.facebook.com/" class="social-icon">
+            <i class="fab fa-facebook"></i>
+        </a>
+
+        <a href="https://twitter.com/" class="social-icon">
+            <i class="fab fa-twitter"></i>
+        </a>
+
+        <a href="https://www.instagram.com/" class="social-icon">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://github.com/" class="social-icon">
+            <i class="fab fa-github"></i>
+        </a>
+
+    </div>
+
+</form>
+<footer id="ft">
+    <small>&copy; 2024 Kruthin. All rights reserved.</small>
+</footer>
+</body>
+</html>
